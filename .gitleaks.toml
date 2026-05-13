@@ -1,0 +1,8 @@
+[extend]
+useDefault = true
+
+[[rules]]
+description = "Ignore intentionally vulnerable app"
+
+[allowlist]
+paths = ["part1/app_vulnerable.py"]

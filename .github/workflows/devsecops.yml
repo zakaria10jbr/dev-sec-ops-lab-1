@@ -129,7 +129,7 @@ jobs:
         if: always()
         with:
           name: security-test-results
-          path: code/session2/security_test_results.xml
+          path: part2/security_test_results.xml
 
   # ─── Job 4: Secret Scanning ──────────────────────────────────────────────────
   secret-scan:

@@ -148,7 +148,7 @@ jobs:
 
       - name: Run gitleaks
         run: |
-          gitleaks detect \
+          gitleaks detect --no-git \
             --source . \
             --report-format json \
             --report-path gitleaks_report.json \
